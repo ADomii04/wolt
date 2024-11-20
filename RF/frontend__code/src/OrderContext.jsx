@@ -9,7 +9,7 @@ export function OrderContextProvider({ children }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:4000/orders', { withCredentials: true });
+                const response = await axios.get('https://wolt-4q9b.vercel.app/orders', { withCredentials: true });
                 
                 
                 setOrder(Array.isArray(response.data) ? response.data : [response.data]);
