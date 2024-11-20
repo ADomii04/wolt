@@ -13,7 +13,7 @@ export default function Signup(){
     async function handleSignup(event){
         event.preventDefault();
         try {
-            await axios.post("http://localhost:4000/signup",{
+            await axios.post("https://wolt-4q9b.vercel.app/signup",{
                 firstName : firstName,
                 lastName : lastName,
                 email : email,
