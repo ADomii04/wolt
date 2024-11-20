@@ -13,7 +13,7 @@ export default function Ordering(){
     async function handleOrders(event){
         event.preventDefault();
         try {
-            await axios.post("http://localhost:4000/Addorders", {
+            await axios.post("https://wolt-4q9b.vercel.app/Addorders", {
                 userId : user._id,
                 name : selectedPizza.name,
                 price : selectedPizza.price
