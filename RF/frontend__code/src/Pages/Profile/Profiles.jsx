@@ -14,7 +14,7 @@ export default function Profiles () {
     async function handleChange(event){
         event.preventDefault();
         try {
-            await axios.post("http://localhost:4000/changeProfile", {
+            await axios.post("https://wolt-4q9b.vercel.app/changeProfile", {
                 email,
                 password,
                 userId : user._id
@@ -26,7 +26,7 @@ export default function Profiles () {
     async function handleOtherChanges(event) {
         event.preventDefault();
         try {
-            await axios.post("http://localhost:4000/changeOtherInfo", {
+            await axios.post("https://wolt-4q9b.vercel.app/changeOtherInfo", {
                 address,
                 phone,
                 userId : user._id,
