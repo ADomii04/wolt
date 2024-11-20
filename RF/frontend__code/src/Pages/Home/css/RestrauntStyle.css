@@ -1,0 +1,5 @@
+
+.cut {
+    mask-image: url(../../Home/home__img/food_img.svg);
+    mask-repeat: no-repeat;
+}

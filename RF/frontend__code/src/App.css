@@ -1,0 +1,7 @@
+
+
+.mask1 {
+    -webkit-mask-image: url(./home__img/food_img.svg);
+    mask-image: url(./home__img/food_img.svg);
+    mask-repeat: no-repeat;
+}
